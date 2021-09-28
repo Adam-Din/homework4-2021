@@ -29,8 +29,10 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', 'sans-serif';
-  background: url("../images/pigeon-background.JPEG") no-repeat center, #DDDDDD;
-  background-size: cover;
+  background: url("../images/pigeon-background.JPEG") center, #DDDDDD;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
 
   /*Req 1*/
 }
@@ -80,7 +82,8 @@ td{
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #7e0825
+  background-color: #7e0825;
+  vertical-align: middle;
 
 }
 
@@ -122,7 +125,7 @@ tr:nth-of-type(odd){
   background-color: transparent;
 }
 
-tr:nth-of-type(odd){
+tr:nth-of-type(even){
   background-color: #D1D1D1;
 }
 
